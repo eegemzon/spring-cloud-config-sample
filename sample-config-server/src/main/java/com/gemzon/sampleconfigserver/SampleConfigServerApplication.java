@@ -1,0 +1,12 @@
+package com.gemzon.sampleconfigserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SampleConfigServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SampleConfigServerApplication.class, args);
+	}
+}
